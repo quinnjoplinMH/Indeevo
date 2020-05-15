@@ -3,7 +3,6 @@
     "description": "A social network for creators!",
     "scripts": {
         "tests": [
-            "vendor/bin/phpunit",
             "phpunit"
         ]
     }
