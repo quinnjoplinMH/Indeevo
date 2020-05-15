@@ -1,0 +1,9 @@
+{
+    "name": "indeevo/indeevo",
+    "description": "A social network for creators!",
+    "scripts": {
+        "tests": [
+            "phpunit"
+        ]
+    }
+}
