@@ -2,6 +2,6 @@
     "name": "indeevo/indeevo",
     "description": "A social network for creators!",
     "scripts": {
-        "tests": "/vendor/bin/phpunit tests"
+        "tests": "/vendor/bin/phpunit"
     }
 }
