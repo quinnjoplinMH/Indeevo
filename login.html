@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-text" style="font-size: 35px">Indeevo</a>
+            <nav>
+                <ul>
+                    <li><a href="TODO: Groups page" class="header-text">Groups</a></li>
+                    <li><a href="TODO: Featured page" class="header-text">Featured</a></li>
+                    <li><a href="TODO: About page" class="header-text">About</a></li>
+                </ul>
+            </nav>
+            <a href="TODO: Login page" class="header-text logIn">Sign In</a>
+        </header>
+        <center>
+            <div style="background: #F6F6F6; display: table; width: 100%;">
+                <div class="login-tile">
+                    <?php if(!empty($message)): ?>
+                    <div id="login-message" ><?= $message ?></div>
+	                <?php endif; ?>
+                    <form class="login-form" action="scripts/UserValidator.php" method="post">
+                        <input type="text" class="input-email" placeholder="email">
+                        <input type="text" class="input-password" placeholder="password">
+                        <input type="submit" class="login-submit">
+                    </form>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
